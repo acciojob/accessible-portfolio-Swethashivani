@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+
+.footer{
+	background-color:grey;
+	padding:1px;
+	text-align:center;
+}
+#header{
+	background-color:pink;
+	text-align:center;
+	padding:5px;
+	color:red;
+}
+#navbar > ul{
+	display:flex;
+	justify-content: space-around;
+	padding: 5px;
+}
+#about {
+    display: flex;
+    justify-content: center; /* Centers child elements horizontally */
+    align-items: center; /* Centers vertically */
+}
+#about img {
+    padding: 20px;
+    margin: 10px;
+}
+	
+#projects{
+	background-color: lightcoral;
+	padding:5px;
+	margin-bottom:30px
+	
+	
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
